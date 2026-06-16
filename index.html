@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Busca CEP - Demon Slayer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="overlay"></div>
+
+<div class="container">
+
+    <img src="img/logo.png" class="logo">
+
+    <h1>BUSCA CEP COM DEMON SLAYER</h1>
+
+    <form>
+
+        <h2>Endereço</h2>
+
+        <div class="linha">
+
+            <div>
+                <label>CEP</label>
+                <input type="text" id="cep" maxlength="9">
+            </div>
+
+            <div>
+                <label>Estado</label>
+                <input type="text" id="estado">
+            </div>
+
+        </div>
+
+        <div class="linha">
+
+            <div>
+                <label>Cidade</label>
+                <input type="text" id="cidade">
+            </div>
+
+            <div>
+                <label>Bairro</label>
+                <input type="text" id="bairro">
+            </div>
+
+        </div>
+
+        <div class="linha">
+
+            <div>
+                <label>Logradouro</label>
+                <input type="text" id="logradouro">
+            </div>
+
+            <div>
+                <label>Número</label>
+                <input type="text">
+            </div>
+
+        </div>
+
+        <div>
+
+            <label>Complemento</label>
+
+            <input type="text">
+
+        </div>
+
+        <button type="button" onclick="buscarCEP()">
+            Buscar
+        </button>
+
+    </form>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
